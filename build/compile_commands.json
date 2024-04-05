@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/albin-alvelius/Desktop/projekt_1/build",
-  "command": "/usr/bin/g++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/local/lib/wx/include/gtk3-unicode-3.0 -isystem /usr/local/include/wx-3.0  -pthread -g -o CMakeFiles/cmakewx.dir/main.cpp.o -c /home/albin-alvelius/Desktop/projekt_1/main.cpp",
-  "file": "/home/albin-alvelius/Desktop/projekt_1/main.cpp",
-  "output": "CMakeFiles/cmakewx.dir/main.cpp.o"
-}
-]

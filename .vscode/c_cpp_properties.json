@@ -3,16 +3,19 @@
         {
             "name": "Linux",
             "includePath": [
-                "/usr/local",
+                "${workspaceFolder}/**",
                 "/usr/local/include/wx-3.0",
                 "/usr/local/lib/wx/include/gtk3-unicode-3.0"
             ],
-            "defines": [],
+            "defines": [
+                "_FILE_OFFSET_BITS=64",
+                "WXUSINGDLL",
+                "__WXGTK__"
+            ],
             "cStandard": "c17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "linux-gcc-x64",
-            "compilerPath": "/usr/bin/g++",
-            "configurationProvider": "ms-vscode.cmake-tools"
+            "compilerPath": "/usr/bin/g++"
         }
     ],
     "version": 4
