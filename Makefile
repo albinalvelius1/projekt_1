@@ -1,7 +1,7 @@
 CXX=g++
 WXFLAGS=`wx-config --cxxflags`
 WXLIBS=`wx-config --libs`
-SRC=main.cpp
+SRC=App.cpp MainFrame.cpp
 OUT=app
 
 all:
